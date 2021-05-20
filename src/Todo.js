@@ -27,7 +27,16 @@ const styles = StyleSheet.create({
         padding: 15,
         borderWidth: 1,
         borderColor: '#eee',
-        borderRadius: 5,
+        borderRadius: 20,
         marginBottom: 10,
+
+        // shadowColor: 'blue',
+        // shadowOffset: {
+        //     width: 0,
+        //     height: 2,
+        // },
+        // shadowOpacity: 0.1,
+        // shadowRadius: 2.62,
+        // elevation: 1,
     }
 })

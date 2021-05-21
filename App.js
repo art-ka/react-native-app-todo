@@ -42,9 +42,25 @@ export default function App() {
     setValue('');
   }
 
-  const removeTodo = id => {
-    setTodos(prev => prev.filter(todo => todo.id !== id))
-  }
+
+
+  const removeTodo = async (id) => {
+
+    const deleteTodo = async (id) => {
+      try {
+        let todoJSON = await AsyncStorage.getItem('tasksList');
+        let todoArr = JSON.parse(todoJSON);
+        const todoNew = todoArr.filter((c) => c.id !== id);
+  
+        AsyncStorage.setItem('tasksList', JSON.stringify(todoNew));
+        setTodos(todoNew);
+      } catch (error) {
+        alert(err);
+      }
+    }
+    deleteTodo(id);
+  };
+
 
   const getData = async () => {
     try {

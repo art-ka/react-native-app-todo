@@ -78,7 +78,7 @@ export default function App() {
 
 
   return (
-    <View>
+    <View style={styles.page}>
       <Navbar title="My todo list" />
       <View style={styles.container}>
         <AddTodo onSubmit={addTodo}
@@ -107,10 +107,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     paddingVertical: 40,
   },
-  // list: {
-  //   height: windowHeight,
-  // }
-  // page: {
-  //   backgroundColor: '#ECF0F3',
-  // }
+  page: {
+    backgroundColor: '#DEE9FD',
+  }
 });

@@ -19,6 +19,8 @@ export const AddTodo = ({ onSubmit, value, setValue }) => {
                 placeholder='What do you want todo today?'
                 autoCorrect={false}
                 autoCapitalize='none'
+                onSubmitEditing={() => pressHandler()}
+                keyboardType='default'
             />
             <TouchableOpacity onPress={pressHandler} style={styles.button}>
                 <Text style={styles.buttonText}>Add</Text>

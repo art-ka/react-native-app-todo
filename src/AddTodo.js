@@ -1,37 +1,8 @@
 import React from 'react';
-import { View, StyleSheet, TextInput, TouchableOpacity, Alert, Text } from 'react-native'
-// import { getPathWithRadius, } from './helpers'
+import { View, TextInput, StyleSheet, TouchableOpacity, Alert, Text } from 'react-native';
 
-// function transformShadowPropsForAndroid(props) {
-//     const shadowProps = { ...props };
-//     if (Platform.OS === 'android') {
-//         shadowProps.shadowRadius = props.shadowRadius * 2;
-//         shadowProps.shadowOffset.x = props.shadowOffset.x * 3;
-//         shadowProps.shadowOffset.y = props.shadowOffset.y * 3;
-//     }
-//     return shadowProps;
-// }
 
 export const AddTodo = ({ onSubmit, value, setValue }) => {
-
-
-    // const shadowOpacity = 1;
-
-    // const shadowOffset = {
-    //     x: 6,
-    //     y: 6
-    // };
-
-    // const shadowRadius = 6;
-
-    // const shadowColor = 'white';
-
-    // const shadowProps = transformShadowPropsForAndroid({
-    //     shadowOpacity,
-    //     shadowOffset,
-    //     shadowRadius,
-    //     shadowColor,
-    // });
 
 
     const NeuMorph = ({ children, size, style }) => {
@@ -68,7 +39,7 @@ export const AddTodo = ({ onSubmit, value, setValue }) => {
                 onSubmitEditing={() => pressHandler()}
                 keyboardType='default'
             />
-            <NeuMorph width={300} height={48}>
+            <NeuMorph width={300} height={48} style={{ backgroundColor: "#3F888F", borderColor: "#3F888F" }}>
                 <TouchableOpacity onPress={pressHandler} style={styles.button}>
                     <Text style={styles.buttonText}>Add</Text>
                 </TouchableOpacity>
@@ -93,7 +64,8 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontSize: 16,
-        color: "#6E7686",
+        // color: "#6E7686",
+        color: "#fff",
         fontWeight: "bold",
         alignSelf: "center",
         textTransform: "uppercase",

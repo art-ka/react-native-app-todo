@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04e9c6bd-4a16-41ab-9c7c-d5409559af94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddTodo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todo.js" afterDir="false" />
@@ -41,10 +43,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="7" y="141" width="1200" height="724" key="AVDManager" timestamp="1621529107543">
+    <state x="12" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623583304215">
       <screen x="0" y="25" width="1680" height="964" />
     </state>
-    <state x="7" y="141" width="1200" height="724" key="AVDManager/0.25.1680.964@0.25.1680.964" timestamp="1621529107543" />
+    <state x="12" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.964@0.25.1680.964" timestamp="1623583304215" />
+    <state x="71" y="326" width="1200" height="724" key="AVDManager" timestamp="1623583305968">
+      <screen x="0" y="25" width="1680" height="964" />
+    </state>
+    <state x="71" y="326" width="1200" height="724" key="AVDManager/0.25.1680.964@0.25.1680.964" timestamp="1623583305968" />
     <state x="90" y="109" key="SettingsEditor" timestamp="1621510452880">
       <screen x="0" y="25" width="1680" height="964" />
     </state>

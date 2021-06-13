@@ -4,6 +4,7 @@ import { Navbar } from './src/Navbar'
 import { AddTodo } from './src/AddTodo'
 import { Todo } from './src/Todo'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+// import fon from './image/2.jpg'
 
 
 export default function App() {
@@ -76,10 +77,13 @@ export default function App() {
     getData();
   }, [])
 
+  
 
   return (
     <View style={styles.page}>
       <Navbar title="My todo list" />
+      {/* <ImageBackground source={fon} style={{width: '100%', height: '100%'}}> */}
+
       <View style={styles.container}>
         <AddTodo onSubmit={addTodo}
           value={value}
@@ -98,6 +102,7 @@ export default function App() {
         ))}
       </View> */}
       </View>
+      {/* </ImageBackground> */}
     </View>
   );
 }
@@ -108,6 +113,9 @@ const styles = StyleSheet.create({
     paddingVertical: 40,
   },
   page: {
-    backgroundColor: '#DEE9FD',
+    // backgroundColor: '#DEE9FD',
+    // backgroundColor: '#edeff2',
+    // backgroundColor: '#e3f3ff',
+    backgroundColor: '#e9edf5',
   }
 });
